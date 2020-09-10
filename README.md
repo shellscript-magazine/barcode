@@ -8,12 +8,14 @@ Windows 10の環境で動かしています。
 
 - Webブラウザを開いて「[Pythonの公式サイト](https://www.python.org/downloads/)」からWindows版Pythonのインストーラを入手して導入します。
 - コマンドプロンプトを開いて次のコマンドを実行します。
-
-`> pip install python_barcode`
-`> pip install pillow`
-`> pip install pypng`
+```
+> pip install python_barcode
+> pip install pillow
+> pip install pypng
+```
 
 「barcode_make.py」は次のように実行します。「barcode.png」のPNG形式の画像ファイル、「barcode.svg」のSVG形式のベクター画像ファイルが生成されます。
-
-`>  barcode_make.py ISBN13の番号`
+```
+>  barcode_make.py ISBN13の番号
+```
 
