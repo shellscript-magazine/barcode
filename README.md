@@ -6,7 +6,7 @@ Windows 10の環境で動かしています。
 
 以下の通りに実行できる環境を構築してください。
 
-- Webブラウザを開いて「[Pythonの公式サイト](https://www.python.org/downloads/)」からWindows版Pythonのインストーラを入手して導入します。
+- Webブラウザを開いて「[Pythonの公式サイト](https://www.python.org/downloads/)」からWindows版Pythonのインストーラを入手して導入します（インストール画面の最後に表示される「Add Python 3.x to PATH」にはチェックを付けてください） 。
 - コマンドプロンプトを開いて次のコマンドを実行します。
 ```
 > pip install python_barcode
