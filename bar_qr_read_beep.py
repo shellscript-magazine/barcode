@@ -28,9 +28,7 @@ try:
             # 端末にデコードで作成された文字列を出力
             print(output)
             qrcam.release()
-            cv2.destroyAllWindows()
             break
 
 except KeyboardInterrupt:
     qrcam.release()
-    cv2.destroyAllWindows()
